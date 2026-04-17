@@ -1,16 +1,16 @@
 variable "ami_id" {
 type = string
-default = "ami-03eb6185d756497f8"
+default = "ami-098e39bafa7e7303d"
 }
 
 variable "itype" {
 type = string
-default = "t2.micro"
+default = "t3.micro"
 }
 
 variable "kn" {
 type = string
-default = "project-keypair"
+default = "myserver-key"
 }
 
 variable "iname" {
